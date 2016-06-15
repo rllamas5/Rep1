@@ -1,0 +1,22 @@
+{
+   "ActionType": "None",
+   "CalledFunction": "",
+   "Caption": "Right Click Menu Option 1",
+   "CaptionTranslationMaxLength": 0,
+   "CaptionTranslationMeaning": "",
+   "CaptionTranslationMode": "",
+   "Description": "Action Control for the \"Menus and Toolbars\" Demo Function - Right Click Menu",
+   "FunctionKey": "0",
+   "IconName": "VIPIcoY",
+   "IsEnabled": "true",
+   "IsVisible": "true",
+   "LinkFunction": "",
+   "Meta": {
+      "Type": "p4ac",
+      "Version": "1"
+   },
+   "Name": "DemoRCMenuActionControl1",
+   "Style": "Simple",
+   "SubMenu": "",
+   "Tooltip": ""
+}

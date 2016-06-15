@@ -1,0 +1,4151 @@
+{
+   "Analyst": "",
+   "Contents": [{
+      "AlternateFormatTag": "",
+      "CSSClass": "",
+      "Contents": [
+         {
+            "Alignment": "Default",
+            "AssociatedFieldTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "Column": 47,
+            "ColumnHeading": "",
+            "ColumnHeadingTranslationMaximumLength": 0,
+            "ColumnHeadingTranslationMeaningCode": "",
+            "ColumnHeadingTranslationMode": "",
+            "CustomValidationEvent": 2,
+            "CycleName": "MainCycle",
+            "DisplayMask": "'ZZ9'",
+            "FillCode": "",
+            "Fontname": "",
+            "Forecolor": "",
+            "GSBackcolor": "",
+            "GSDisplayWidth": 3,
+            "GSForecolor": "",
+            "Height": 1,
+            "HelpKeyword": "",
+            "HelpMessage": "Celsius temperature (0 - 100)",
+            "HelpMessageTranslationMaxLength": 0,
+            "HelpMessageTranslationMeaningCode": "",
+            "HelpMessageTranslationMode": "",
+            "IsAcceptFocusInLookup": "",
+            "IsAllowDoubleBytes": "",
+            "IsAutoCompletMode": "",
+            "IsAutoComplete": "false",
+            "IsAutoRepeat": "true",
+            "IsAutoScrollbar": "N",
+            "IsBold": "false",
+            "IsCharacterWrap": "",
+            "IsDisplayOnly": "false",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSNormalIntensity": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsItalic": "false",
+            "IsLSPreload": "",
+            "IsMustInput": "false",
+            "IsNoChange": "false",
+            "IsOverride": "true",
+            "IsPagingColumnHeaderBold": "false",
+            "IsPagingColumnHeaderItalic": "false",
+            "IsPagingColumnHeaderSortOnColumnClick": "false",
+            "IsPagingColumnHeaderStrikeout": "false",
+            "IsPagingColumnHeaderUnderline": "false",
+            "IsRowAbsolute": "false",
+            "IsStrikeout": "false",
+            "IsTabStop": "false",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "ObjectCode": "EDITBOX",
+            "OnFocusEvent": 0,
+            "OnLostFocusEvent": 0,
+            "OnRefreshEvent": 4,
+            "OnWindowEvent": 0,
+            "PagingColumnHeader": "",
+            "PagingColumnHeaderAlignment": "",
+            "PagingColumnHeaderBackcolor": "",
+            "PagingColumnHeaderFontName": "",
+            "PagingColumnHeaderForecolor": "",
+            "RightClickMenu": "",
+            "Row": 9,
+            "SecurityLevelChange": 0,
+            "SecurityLevelLook": 0,
+            "StandardValidation": "",
+            "TagId": "Celsius",
+            "Tooltip": "Celsius temperature (0 - 100)",
+            "Type": "Field",
+            "VariableLength": 3,
+            "VariableName": "#Celsius",
+            "Width": 4
+         },
+         {
+            "Alignment": "Default",
+            "AssociatedFieldTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "Normal",
+            "Column": 47,
+            "ColumnHeading": "",
+            "ColumnHeadingTranslationMaximumLength": 0,
+            "ColumnHeadingTranslationMeaningCode": "",
+            "ColumnHeadingTranslationMode": "",
+            "CustomValidationEvent": 0,
+            "CycleName": "MainCycle",
+            "DisplayMask": "'ZZ9'",
+            "FillCode": "",
+            "Fontname": "",
+            "Forecolor": "",
+            "GSBackcolor": "",
+            "GSDisplayWidth": 3,
+            "GSForecolor": "",
+            "Height": 1,
+            "HelpKeyword": "",
+            "HelpMessage": "The Celsius temperature converted to Fahrenheit",
+            "HelpMessageTranslationMaxLength": 0,
+            "HelpMessageTranslationMeaningCode": "",
+            "HelpMessageTranslationMode": "",
+            "IsAcceptFocusInLookup": "",
+            "IsAllowDoubleBytes": "",
+            "IsAutoCompletMode": "",
+            "IsAutoComplete": "false",
+            "IsAutoRepeat": "true",
+            "IsAutoScrollbar": "N",
+            "IsBold": "false",
+            "IsCharacterWrap": "",
+            "IsDisplayOnly": "true",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSNormalIntensity": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsItalic": "false",
+            "IsLSPreload": "",
+            "IsMustInput": "false",
+            "IsNoChange": "false",
+            "IsOverride": "true",
+            "IsPagingColumnHeaderBold": "false",
+            "IsPagingColumnHeaderItalic": "false",
+            "IsPagingColumnHeaderSortOnColumnClick": "false",
+            "IsPagingColumnHeaderStrikeout": "false",
+            "IsPagingColumnHeaderUnderline": "false",
+            "IsRowAbsolute": "false",
+            "IsStrikeout": "false",
+            "IsTabStop": "false",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "ObjectCode": "EDITBOX",
+            "OnFocusEvent": 0,
+            "OnLostFocusEvent": 0,
+            "OnRefreshEvent": 0,
+            "OnWindowEvent": 0,
+            "PagingColumnHeader": "",
+            "PagingColumnHeaderAlignment": "",
+            "PagingColumnHeaderBackcolor": "",
+            "PagingColumnHeaderFontName": "",
+            "PagingColumnHeaderForecolor": "",
+            "RightClickMenu": "",
+            "Row": 10,
+            "SecurityLevelChange": 0,
+            "SecurityLevelLook": 0,
+            "StandardValidation": "",
+            "TagId": "Fahrenheit",
+            "Tooltip": "The Celsius temperature converted to Fahrenheit",
+            "Type": "Field",
+            "VariableLength": 3,
+            "VariableName": "#Fahrenheit",
+            "Width": 4
+         },
+         {
+            "@OBJECT_SUB_CODE": "Meter",
+            "AssociatedFieldTagId": "",
+            "CSSClass": "",
+            "ChartType": "Meter",
+            "ClientDisplay": "Normal",
+            "Column": 25,
+            "ColumnHeader": "",
+            "Height": 20,
+            "HelpKeyword": "",
+            "HelpMessage": "",
+            "HelpMessageTranslationMaxLength": 0,
+            "HelpMessageTranslationMeaningCode": "",
+            "HelpMessageTranslationMode": "",
+            "IsDisplayOnly": "true",
+            "IsEnabled": "true",
+            "IsNoChange": "false",
+            "IsPagingColumnHeaderBold": "false",
+            "IsPagingColumnHeaderItalic": "false",
+            "IsPagingColumnHeaderSortOnColumnClick": "false",
+            "IsPagingColumnHeaderStrikeout": "false",
+            "IsPagingColumnHeaderUnderline": "false",
+            "IsRowAbsolute": "false",
+            "IsTabStop": "false",
+            "IsVisible": "true",
+            "MaxHeight": "19",
+            "MaxWidth": "30",
+            "ObjectCode": "CHART",
+            "OnFocusEvent": 0,
+            "OnLostFocusEvent": 0,
+            "PagingColumnHeaderAlignment": "",
+            "PagingColumnHeaderBackcolor": "",
+            "PagingColumnHeaderFontName": "",
+            "PagingColumnHeaderForecolor": "",
+            "RightClickMenu": "",
+            "Row": 12,
+            "SecurityLevelChange": 0,
+            "SecurityLevelLook": 0,
+            "SoftProperties": [
+               {
+                  "Name": "Animation",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Background_color",
+                  "Value": "White"
+               },
+               {
+                  "Name": "Background_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Background_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Background_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Background_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Background_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Background_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Background_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Background_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Border_color",
+                  "Value": "Green"
+               },
+               {
+                  "Name": "Border_radius",
+                  "Value": "  6"
+               },
+               {
+                  "Name": "Border_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Border_width",
+                  "Value": "  5"
+               },
+               {
+                  "Name": "Chart_anchor_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_anchor_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_anchor_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_anchor_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_anchor_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_anchor_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_radius",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_annotation1_style_color",
+                  "Value": "#c00000"
+               },
+               {
+                  "Name": "Chart_annotation1_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation1_style_size",
+                  "Value": " 14"
+               },
+               {
+                  "Name": "Chart_annotation1_text",
+                  "Value": "Fahrenheit"
+               },
+               {
+                  "Name": "Chart_annotation1_xOffset",
+                  "Value": " 50"
+               },
+               {
+                  "Name": "Chart_annotation1_yOffset",
+                  "Value": " 80"
+               },
+               {
+                  "Name": "Chart_annotation2_style_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation2_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation2_style_size",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_annotation2_text",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation2_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_annotation2_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_annotation3_style_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation3_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation3_style_size",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_annotation3_text",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation3_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_annotation3_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_radius",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale1_endAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_label_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_label_offset",
+                  "Value": " 98"
+               },
+               {
+                  "Name": "Chart_scale1_label_orientation",
+                  "Value": "horizontal"
+               },
+               {
+                  "Name": "Chart_scale1_label_style_color",
+                  "Value": "#0000c0"
+               },
+               {
+                  "Name": "Chart_scale1_label_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_label_style_size",
+                  "Value": " 12"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_color",
+                  "Value": "#0000c0"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_interval",
+                  "Value": "10"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_length",
+                  "Value": " 12"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_offset",
+                  "Value": " 82"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_width",
+                  "Value": "  1"
+               },
+               {
+                  "Name": "Chart_scale1_maximum",
+                  "Value": "212"
+               },
+               {
+                  "Name": "Chart_scale1_minimum",
+                  "Value": "32"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_color",
+                  "Value": "#0000c0"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_interval",
+                  "Value": "2"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_length",
+                  "Value": "  8"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_offset",
+                  "Value": " 82"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_width",
+                  "Value": "  1"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_color",
+                  "Value": "#0000c0"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle1_medOffset",
+                  "Value": " 70"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_outOffset",
+                  "Value": " 80"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle1_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_width",
+                  "Value": "  5"
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle2_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale1_needle2_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle3_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale1_needle3_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale1_radius",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range1_endValue",
+                  "Value": "212"
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_color",
+                  "Value": "#0000c0"
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_inOffset",
+                  "Value": " 81"
+               },
+               {
+                  "Name": "Chart_scale1_range1_inOffsetEnd",
+                  "Value": " 81"
+               },
+               {
+                  "Name": "Chart_scale1_range1_outOffset",
+                  "Value": " 83"
+               },
+               {
+                  "Name": "Chart_scale1_range1_startValue",
+                  "Value": "32"
+               },
+               {
+                  "Name": "Chart_scale1_range2_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_startAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_radius",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale2_endAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_label_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_label_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_label_orientation",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_label_style_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_label_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_label_style_size",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_length",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_maximum",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_minimum",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_length",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle1_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale2_needle1_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle2_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale2_needle2_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle3_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale2_needle3_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_radius",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_startAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_radius",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale3_endAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_label_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_label_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_label_orientation",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_label_style_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_label_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_label_style_size",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_length",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_maximum",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_minimum",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_length",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle1_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale3_needle1_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle2_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale3_needle2_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle3_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale3_needle3_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_radius",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_startAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Shadows_blur",
+                  "Value": "  2"
+               },
+               {
+                  "Name": "Shadows_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Shadows_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Shadows_xWidth",
+                  "Value": "  2"
+               },
+               {
+                  "Name": "Shadows_yWidth",
+                  "Value": "  2"
+               },
+               {
+                  "Name": "Tooltip_show",
+                  "Value": "true"
+               }
+            ],
+            "TagId": "FahrenheitMeter",
+            "Tooltip": "",
+            "Type": "Field",
+            "Width": 30
+         },
+         {
+            "@OBJECT_SUB_CODE": "Meter",
+            "AssociatedFieldTagId": "",
+            "CSSClass": "",
+            "ChartType": "Meter",
+            "ClientDisplay": "Normal",
+            "Column": 60,
+            "ColumnHeader": "",
+            "Height": 20,
+            "HelpKeyword": "",
+            "HelpMessage": "",
+            "HelpMessageTranslationMaxLength": 0,
+            "HelpMessageTranslationMeaningCode": "",
+            "HelpMessageTranslationMode": "",
+            "IsDisplayOnly": "true",
+            "IsEnabled": "true",
+            "IsNoChange": "false",
+            "IsPagingColumnHeaderBold": "false",
+            "IsPagingColumnHeaderItalic": "false",
+            "IsPagingColumnHeaderSortOnColumnClick": "false",
+            "IsPagingColumnHeaderStrikeout": "false",
+            "IsPagingColumnHeaderUnderline": "false",
+            "IsRowAbsolute": "false",
+            "IsTabStop": "false",
+            "IsVisible": "true",
+            "MaxHeight": "19",
+            "MaxWidth": "30",
+            "ObjectCode": "CHART",
+            "OnFocusEvent": 0,
+            "OnLostFocusEvent": 0,
+            "PagingColumnHeaderAlignment": "",
+            "PagingColumnHeaderBackcolor": "",
+            "PagingColumnHeaderFontName": "",
+            "PagingColumnHeaderForecolor": "",
+            "RightClickMenu": "",
+            "Row": 12,
+            "SecurityLevelChange": 0,
+            "SecurityLevelLook": 0,
+            "SoftProperties": [
+               {
+                  "Name": "Animation",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Background_color",
+                  "Value": "White"
+               },
+               {
+                  "Name": "Background_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Background_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Background_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Background_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Background_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Background_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Background_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Background_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Border_color",
+                  "Value": "Green"
+               },
+               {
+                  "Name": "Border_radius",
+                  "Value": "  6"
+               },
+               {
+                  "Name": "Border_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Border_width",
+                  "Value": "  5"
+               },
+               {
+                  "Name": "Chart_anchor_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_anchor_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_anchor_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_anchor_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_anchor_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_anchor_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_radius",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_anchor_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_annotation1_style_color",
+                  "Value": "#c00000"
+               },
+               {
+                  "Name": "Chart_annotation1_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation1_style_size",
+                  "Value": " 14"
+               },
+               {
+                  "Name": "Chart_annotation1_text",
+                  "Value": "Celsius"
+               },
+               {
+                  "Name": "Chart_annotation1_xOffset",
+                  "Value": " 50"
+               },
+               {
+                  "Name": "Chart_annotation1_yOffset",
+                  "Value": " 80"
+               },
+               {
+                  "Name": "Chart_annotation2_style_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation2_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation2_style_size",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_annotation2_text",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation2_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_annotation2_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_annotation3_style_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation3_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation3_style_size",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_annotation3_text",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_annotation3_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_annotation3_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_radius",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_anchor_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale1_endAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_label_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_label_offset",
+                  "Value": " 95"
+               },
+               {
+                  "Name": "Chart_scale1_label_orientation",
+                  "Value": "horizontal"
+               },
+               {
+                  "Name": "Chart_scale1_label_style_color",
+                  "Value": "#0000c0"
+               },
+               {
+                  "Name": "Chart_scale1_label_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_label_style_size",
+                  "Value": " 12"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_interval",
+                  "Value": "10"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_length",
+                  "Value": " 12"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_offset",
+                  "Value": " 80"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_majorTick_width",
+                  "Value": "  1"
+               },
+               {
+                  "Name": "Chart_scale1_maximum",
+                  "Value": "100"
+               },
+               {
+                  "Name": "Chart_scale1_minimum",
+                  "Value": "0"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_interval",
+                  "Value": "2"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_length",
+                  "Value": "  8"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_offset",
+                  "Value": " 80"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_minorTick_width",
+                  "Value": "  1"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_color",
+                  "Value": "#0000c0"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle1_medOffset",
+                  "Value": " 75"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_outOffset",
+                  "Value": " 80"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle1_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale1_needle1_width",
+                  "Value": "  5"
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle2_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle2_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale1_needle2_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_needle3_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_needle3_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale1_needle3_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale1_radius",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range1_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range1_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range2_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_range3_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale1_startAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale1_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_radius",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_anchor_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale2_endAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_label_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_label_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_label_orientation",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_label_style_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_label_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_label_style_size",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_length",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_majorTick_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_maximum",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_minimum",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_length",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_minorTick_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle1_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle1_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale2_needle1_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle2_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle2_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale2_needle2_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_needle3_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_needle3_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale2_needle3_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale2_radius",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range1_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range2_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_range3_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale2_startAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale2_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_radius",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_anchor_show",
+                  "Value": "true"
+               },
+               {
+                  "Name": "Chart_scale3_endAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_label_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_label_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_label_orientation",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_label_style_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_label_style_font",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_label_style_size",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_length",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_majorTick_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_maximum",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_minimum",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_interval",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_length",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_offset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_minorTick_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle1_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle1_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale3_needle1_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle2_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle2_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale3_needle2_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_medOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_needle3_type",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_needle3_value",
+                  "Value": "__null__"
+               },
+               {
+                  "Name": "Chart_scale3_needle3_width",
+                  "Value": "  "
+               },
+               {
+                  "Name": "Chart_scale3_radius",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range1_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range2_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_endValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_colors",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_stops",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_type",
+                  "Value": "solid"
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_xEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_xStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_yEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_fill_yStart",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_inOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_inOffsetEnd",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_outOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_range3_startValue",
+                  "Value": ""
+               },
+               {
+                  "Name": "Chart_scale3_startAngle",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_xOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Chart_scale3_yOffset",
+                  "Value": "   "
+               },
+               {
+                  "Name": "Shadows_blur",
+                  "Value": "  2"
+               },
+               {
+                  "Name": "Shadows_color",
+                  "Value": ""
+               },
+               {
+                  "Name": "Shadows_show",
+                  "Value": "false"
+               },
+               {
+                  "Name": "Shadows_xWidth",
+                  "Value": "  2"
+               },
+               {
+                  "Name": "Shadows_yWidth",
+                  "Value": "  2"
+               },
+               {
+                  "Name": "Tooltip_show",
+                  "Value": "true"
+               }
+            ],
+            "TagId": "CelsiusMeter",
+            "Tooltip": "",
+            "Type": "Field",
+            "Width": 30
+         }
+      ],
+      "CycleEndTag": "CelsiusMeter",
+      "CycleEntryLogic": 0,
+      "CycleExitEvent": 0,
+      "CycleName": "MainCycle",
+      "CycleStartTag": "Celsius",
+      "CycleType": "ManyTime Screen",
+      "DefaultMode": "C",
+      "DetailFormatTag": "",
+      "EODCancelEvent": 0,
+      "FormatTag": "MainCycle",
+      "FunctionKeys": [
+         {
+            "Description": "Exit",
+            "FunctionToExecute": "",
+            "GlobalFunction": "",
+            "GlobalFunctionMap": "",
+            "GlobalLogicId": "",
+            "IsDisabled": "",
+            "LocalCycleTag": "",
+            "LocalEvent": 7,
+            "Number": "  33"
+         },
+         {
+            "Description": "Reset",
+            "FunctionToExecute": "",
+            "GlobalFunction": "",
+            "GlobalFunctionMap": "",
+            "GlobalLogicId": "",
+            "IsDisabled": "",
+            "LocalCycleTag": "",
+            "LocalEvent": 6,
+            "Number": "  34"
+         }
+      ],
+      "GUIBorderEndColumn": 0,
+      "GUIBorderEndRow": 0,
+      "GUIBorderStartColumn": 0,
+      "GUIBorderStartRow": 0,
+      "GUIHeaderEndColumn": 0,
+      "GUIHeaderEndRow": 0,
+      "GUIHeaderStartColumn": 0,
+      "GUIHeaderStartRow": 0,
+      "HelpFileKeyword": "",
+      "IsClearScreen": "true",
+      "IsExpandedPagingHorizontalGrid": "false",
+      "IsExpandedPagingVerticalGrid": "false",
+      "IsNormalPagingHorizontalGrid": "false",
+      "IsNormalPagingVerticalGrid": "false",
+      "IsScaleWallpaper": "false",
+      "IsSortPass": "",
+      "IsSuppressAccessToAugmentedLookupFieldsInDeleteMode": "",
+      "IsSuppressBorder": "false",
+      "IsSuppressConfirmationOnDelete": "",
+      "IsSuppressGUIBorder": "false",
+      "IsWallpaperFilenameRequired": "true",
+      "IterationCounter": "",
+      "LastFileNumber": "00",
+      "LastReadFieldTag": "",
+      "LineNumberPrompt": "",
+      "LineNumberToDisplayScreenMode": 0,
+      "MouseNavigationAllowed": "true",
+      "PrimaryFileName": "",
+      "ScreenModeChangedEvent": 0,
+      "ScreenModesAllowed": "C",
+      "ScreenTitle": "",
+      "StaticObjects": [
+         {
+            "Alignment": "",
+            "AssociatedTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "J",
+            "Column": "001",
+            "CursorGraphic": "",
+            "DisabledGraphic": "",
+            "DragData": "",
+            "DragType": "",
+            "DropDataVariable": "",
+            "DropItemLimit": "",
+            "DropTypeAllowed": "",
+            "Fontname": "",
+            "Forecolor": "",
+            "FunctionKey": -1,
+            "Graphic": "do_feats_top.jpg",
+            "Height": 6,
+            "IsBold": "false",
+            "IsDragEnabled": "false",
+            "IsDropEnabled": "false",
+            "IsEnabled": "true",
+            "IsGraphicVariable": "",
+            "IsItalic": "false",
+            "IsLabelVariable": "",
+            "IsScaled": "true",
+            "IsStrikeout": "false",
+            "IsSuppressLabel": "",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "",
+            "LabelTooltip": "",
+            "MouseOverGraphic": "",
+            "MouseOverLabel": "",
+            "MousePressedGraphic": "",
+            "MousePressedLabel": "",
+            "Name": "",
+            "ObjectLabel": "",
+            "ObjectType": "ICON",
+            "ResponseString": "",
+            "Row": "001",
+            "Sequence": "001",
+            "TagId": "HeadingIcon",
+            "Tooltip": "",
+            "Width": 110
+         },
+         {
+            "Alignment": "4",
+            "AssociatedTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "J",
+            "Column": "023",
+            "CursorGraphic": "",
+            "DisabledGraphic": "",
+            "DragData": "",
+            "DragType": "",
+            "DropDataVariable": "",
+            "DropItemLimit": "",
+            "DropTypeAllowed": "",
+            "Fontname": "Tahoma",
+            "Forecolor": "white",
+            "FunctionKey": 0,
+            "Graphic": "do_feats_header",
+            "Height": 1,
+            "IsBold": "true",
+            "IsDragEnabled": "false",
+            "IsDropEnabled": "false",
+            "IsEnabled": "true",
+            "IsGraphicVariable": "",
+            "IsItalic": "false",
+            "IsLabelVariable": "",
+            "IsScaled": "true",
+            "IsStrikeout": "false",
+            "IsSuppressLabel": "",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "                 Meter",
+            "LabelTooltip": "",
+            "MouseOverGraphic": "",
+            "MouseOverLabel": "",
+            "MousePressedGraphic": "",
+            "MousePressedLabel": "",
+            "Name": "",
+            "ObjectLabel": "",
+            "ObjectType": "ICON",
+            "ResponseString": "",
+            "Row": "007",
+            "Sequence": "002",
+            "TagId": "TitleIcon",
+            "Tooltip": "",
+            "Width": 88
+         },
+         {
+            "Alignment": "",
+            "AssociatedTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "J",
+            "Column": "001",
+            "CursorGraphic": "",
+            "DisabledGraphic": "",
+            "DragData": "",
+            "DragType": "",
+            "DropDataVariable": "",
+            "DropItemLimit": "",
+            "DropTypeAllowed": "",
+            "Fontname": "",
+            "Forecolor": "",
+            "FunctionKey": 0,
+            "Graphic": "do_feats_frame",
+            "Height": 24,
+            "IsBold": "false",
+            "IsDragEnabled": "false",
+            "IsDropEnabled": "false",
+            "IsEnabled": "true",
+            "IsGraphicVariable": "",
+            "IsItalic": "false",
+            "IsLabelVariable": "",
+            "IsScaled": "true",
+            "IsStrikeout": "false",
+            "IsSuppressLabel": "",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "",
+            "LabelTooltip": "",
+            "MouseOverGraphic": "",
+            "MouseOverLabel": "",
+            "MousePressedGraphic": "",
+            "MousePressedLabel": "",
+            "Name": "",
+            "ObjectLabel": "",
+            "ObjectType": "ICON",
+            "ResponseString": "",
+            "Row": "007",
+            "Sequence": "003",
+            "TagId": "ControlPanel",
+            "Tooltip": "",
+            "Width": 22
+         },
+         {
+            "Alignment": "4",
+            "AssociatedTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "J",
+            "Column": "003",
+            "CursorGraphic": "",
+            "DisabledGraphic": "do_menu_button",
+            "DragData": "",
+            "DragType": "",
+            "DropDataVariable": "",
+            "DropItemLimit": "",
+            "DropTypeAllowed": "",
+            "Fontname": "",
+            "Forecolor": "white",
+            "FunctionKey": 34,
+            "Graphic": "do_menu_button",
+            "Height": 1,
+            "IsBold": "true",
+            "IsDragEnabled": "false",
+            "IsDropEnabled": "false",
+            "IsEnabled": "true",
+            "IsGraphicVariable": "",
+            "IsItalic": "false",
+            "IsLabelVariable": "",
+            "IsScaled": "true",
+            "IsStrikeout": "false",
+            "IsSuppressLabel": "",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "      Reset",
+            "LabelTooltip": "",
+            "MouseOverGraphic": "do_menu_button_over",
+            "MouseOverLabel": "",
+            "MousePressedGraphic": "",
+            "MousePressedLabel": "",
+            "Name": "",
+            "ObjectLabel": "",
+            "ObjectType": "ICON",
+            "ResponseString": "",
+            "Row": "010",
+            "Sequence": "004",
+            "TagId": "Reset",
+            "Tooltip": "",
+            "Width": 18
+         },
+         {
+            "Alignment": "4",
+            "AssociatedTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "J",
+            "Column": "003",
+            "CursorGraphic": "",
+            "DisabledGraphic": "do_menu_button",
+            "DragData": "",
+            "DragType": "",
+            "DropDataVariable": "",
+            "DropItemLimit": "",
+            "DropTypeAllowed": "",
+            "Fontname": "",
+            "Forecolor": "white",
+            "FunctionKey": 33,
+            "Graphic": "do_menu_button",
+            "Height": 1,
+            "IsBold": "true",
+            "IsDragEnabled": "false",
+            "IsDropEnabled": "false",
+            "IsEnabled": "true",
+            "IsGraphicVariable": "",
+            "IsItalic": "false",
+            "IsLabelVariable": "",
+            "IsScaled": "true",
+            "IsStrikeout": "false",
+            "IsSuppressLabel": "",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "      E&xit",
+            "LabelTooltip": "",
+            "MouseOverGraphic": "do_menu_button_over",
+            "MouseOverLabel": "",
+            "MousePressedGraphic": "",
+            "MousePressedLabel": "",
+            "Name": "",
+            "ObjectLabel": "",
+            "ObjectType": "ICON",
+            "ResponseString": "",
+            "Row": "011",
+            "Sequence": "005",
+            "TagId": "Exit",
+            "Tooltip": "",
+            "Width": 18
+         },
+         {
+            "Alignment": "",
+            "AssociatedTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "",
+            "Column": "027",
+            "Fontname": "Tahoma",
+            "Forecolor": "white",
+            "GSBackcolor": "",
+            "GSForecolor": "",
+            "GUIWidth": 0,
+            "Height": 1,
+            "IsBold": "true",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsInset": "false",
+            "IsItalic": "false",
+            "IsRaised": "false",
+            "IsScaled": "false",
+            "IsStrikeout": "false",
+            "IsTextbox": "true",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "Description",
+            "LabelTooltip": "",
+            "ObjectType": "TEXT",
+            "Row": "027",
+            "Sequence": "006",
+            "TagId": "DescriptionPrompt",
+            "Tooltip": "",
+            "Width": 18
+         },
+         {
+            "Alignment": "L",
+            "AssociatedTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "",
+            "Column": "027",
+            "Fontname": "Arial",
+            "Forecolor": "white",
+            "GSBackcolor": "",
+            "GSForecolor": "",
+            "GUIWidth": 0,
+            "Height": 2,
+            "IsBold": "false",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsInset": "false",
+            "IsItalic": "false",
+            "IsRaised": "false",
+            "IsScaled": "false",
+            "IsStrikeout": "false",
+            "IsTextbox": "true",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "This demo shows two different meter styles. Various properties can be set that modify the rendition of the meters. These take effect immediately. To reset the meters to their default state, simply click the reset button. ",
+            "LabelTooltip": "",
+            "ObjectType": "TEXT",
+            "Row": "028",
+            "Sequence": "007",
+            "TagId": "Description1",
+            "Tooltip": "",
+            "Width": 75
+         },
+         {
+            "Alignment": "D",
+            "AssociatedTagId": "Celsius",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "B",
+            "Column": "027",
+            "Fontname": "Tahoma",
+            "Forecolor": "white",
+            "GSBackcolor": "",
+            "GSForecolor": "",
+            "GUIWidth": 0,
+            "Height": 1,
+            "IsBold": "true",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsInset": "false",
+            "IsItalic": "false",
+            "IsRaised": "false",
+            "IsScaled": "false",
+            "IsStrikeout": "false",
+            "IsTextbox": "true",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "Temperature (Celsius)",
+            "LabelTooltip": "",
+            "ObjectType": "TEXT",
+            "Row": "009",
+            "Sequence": "008",
+            "TagId": "CelsiusPrompt",
+            "Tooltip": "Celsius temperature (0 - 100)",
+            "Width": 18
+         },
+         {
+            "Alignment": "D",
+            "AssociatedTagId": "Fahrenheit",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "B",
+            "Column": "027",
+            "Fontname": "Tahoma",
+            "Forecolor": "white",
+            "GSBackcolor": "",
+            "GSForecolor": "",
+            "GUIWidth": 0,
+            "Height": 1,
+            "IsBold": "true",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsInset": "false",
+            "IsItalic": "false",
+            "IsRaised": "false",
+            "IsScaled": "false",
+            "IsStrikeout": "false",
+            "IsTextbox": "true",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "Temperature (Fahrenheit)",
+            "LabelTooltip": "",
+            "ObjectType": "TEXT",
+            "Row": "010",
+            "Sequence": "009",
+            "TagId": "FahrenheitPrompt",
+            "Tooltip": "The Celsius temperature converted to Fahrenheit",
+            "Width": 18
+         },
+         {
+            "Alignment": "L",
+            "AssociatedTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "",
+            "Column": "027",
+            "Fontname": "Arial",
+            "Forecolor": "white",
+            "GSBackcolor": "",
+            "GSForecolor": "",
+            "GUIWidth": 0,
+            "Height": 2,
+            "IsBold": "false",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsInset": "false",
+            "IsItalic": "false",
+            "IsRaised": "false",
+            "IsScaled": "false",
+            "IsStrikeout": "false",
+            "IsTextbox": "true",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "To update the meters, simply modify the Celsius value. The Fahrenheit value will automatically be recalculated.",
+            "LabelTooltip": "",
+            "ObjectType": "TEXT",
+            "Row": "030",
+            "Sequence": "010",
+            "TagId": "Description2",
+            "Tooltip": "",
+            "Width": 75
+         },
+         {
+            "Alignment": "",
+            "Backcolor": "",
+            "BoxAppearance": "Surface",
+            "CSSClass": "",
+            "ClientDisplay": "",
+            "Column": "025",
+            "FontName": "",
+            "Forecolor": "White",
+            "GSBackcolor": "",
+            "GSForecolor": "",
+            "Height": 4,
+            "IsBold": "true",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSReverse": "",
+            "IsItalic": "false",
+            "IsShapeBold": "",
+            "IsStrikeOut": "false",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "Label": "Set Temperature",
+            "MaxHeight": "0",
+            "MaxWidth": "0",
+            "ObjectType": "BOX",
+            "Row": "008",
+            "Sequence": "011",
+            "ShapeMargin": "Inside",
+            "ShapeProjection": "Normal",
+            "TagId": "SetTemperatureBox",
+            "Width": 28
+         }
+      ],
+      "Type": "Cycle",
+      "WallpaperImageFileName": "do_feats_purple",
+      "WindowEndColumn": 0,
+      "WindowEndRow": 0,
+      "WindowStartColumn": 0,
+      "WindowStartRow": 0
+   }],
+   "ErrorFunction": "DEMO",
+   "Events": {
+      "001": [
+         "//Set initial values.",
+         "#Celsius = 20"
+      ],
+      "002": [
+         "//Validate the input for Celsius.",
+         "//",
+         "if #INPUT < 0 or #INPUT > 100 then",
+         "   msg 1",
+         "endif"
+      ],
+      "004": [
+         "//Calculate the Fahrenheit and the refresh the meters.",
+         "//",
+         "if #Celsius = 0 then",
+         "   #Fahrenheit = 32",
+         "else",
+         "   #Fahrenheit = int(#Celsius * (9 / 5)) + 32",
+         "endif",
+         "//",
+         "FahrenheitMeter.Chart_scale1_needle1_value = #Fahrenheit",
+         "CelsiusMeter.Chart_scale1_needle1_value    = #Celsius"
+      ],
+      "006": [
+         "//Reset the demo.",
+         "#Celsius                                   = 20",
+         "#Fahrenheit                                = int(#Celsius * (9 / 5)) + 32",
+         "FahrenheitMeter.Chart_scale1_needle1_value = #Fahrenheit",
+         "CelsiusMeter.Chart_scale1_needle1_value    = #Celsius",
+         "Celsius.Refresh()",
+         "Fahrenheit.Refresh()"
+      ],
+      "007": [
+         "//Exit to DEMO",
+         "lsexit"
+      ]
+   },
+   "ExitFunction": "DEMO",
+   "FunctionEntryEvent": 1,
+   "FunctionExitEvent": 0,
+   "FunctionMessages": [{
+      "MessageId": "001",
+      "Text": "Error. Celsius input value must be in range 0 - 100",
+      "TextTranslationMaximumLength": 0,
+      "TextTranslationMeaningCode": "",
+      "TextTranslationMode": ""
+   }],
+   "FunctionParameters": [],
+   "FunctionTitleForMenus": "",
+   "IsBlockFunctionExecution": "false",
+   "IsFunctionInProduction": "false",
+   "IsGlobal": "false",
+   "IsNoReturnData": "false",
+   "IsSuppressLines": "false",
+   "IsSuppressReportUpdateMessage": "false",
+   "MenuIcon": "",
+   "Meta": {
+      "Type": "p4fn",
+      "Version": "1"
+   },
+   "MinimumSecurityLevel": 1,
+   "Name": "@DemoMeterChart",
+   "Password": "",
+   "ScratchVariables": [
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#Celsius"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#Fahrenheit"
+      }
+   ],
+   "SecurityCategory": "DEMO",
+   "SecurityFailureFunction": "",
+   "Title": "Meter",
+   "TitleForMenusTranslationMaximumLength": 0,
+   "TitleForMenusTranslationMeaningCode": "",
+   "TitleForMenusTranslationMode": "",
+   "TitleTranslationMaximumLength": 0,
+   "TitleTranslationMeaningCode": "",
+   "TitleTranslationMode": "",
+   "Type": "Screen"
+}

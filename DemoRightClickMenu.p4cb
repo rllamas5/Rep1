@@ -1,0 +1,81 @@
+{
+   "ActionControls": [
+      {
+         "ActionType": "None",
+         "CalledFunction": "",
+         "Caption": "Right Click Menu Option 1",
+         "CaptionTranslationMaxLength": 0,
+         "CaptionTranslationMeaning": "",
+         "CaptionTranslationMode": "",
+         "Description": "Action Control for the \"Menus and Toolbars\" Demo Function - Right Click Menu",
+         "FunctionKey": "0",
+         "IconName": "VIPIcoY",
+         "IsEnabled": "true",
+         "IsVisible": "true",
+         "LinkFunction": "",
+         "Name": "DemoRCMenuActionControl1",
+         "Style": "Simple",
+         "SubMenu": "",
+         "Tooltip": ""
+      },
+      {
+         "ActionType": "None",
+         "CalledFunction": "",
+         "Caption": "Right Click Menu Option 2",
+         "CaptionTranslationMaxLength": 0,
+         "CaptionTranslationMeaning": "",
+         "CaptionTranslationMode": "",
+         "Description": "Action Control for the \"Menus and Toolbars\" Demo Function - Right Click Menu",
+         "FunctionKey": "0",
+         "IconName": "VIPIcoN",
+         "IsEnabled": "true",
+         "IsVisible": "true",
+         "LinkFunction": "",
+         "Name": "DemoRCMenuActionControl2",
+         "Style": "Simple",
+         "SubMenu": "",
+         "Tooltip": ""
+      },
+      {
+         "ActionType": "None",
+         "CalledFunction": "",
+         "Caption": "",
+         "Description": "\"Separator\" Action Control for the \"Menus and Toolbars\" Demo Function",
+         "FunctionKey": "0",
+         "IconName": "",
+         "IsEnabled": "false",
+         "IsVisible": "false",
+         "LinkFunction": "",
+         "Name": "DemoSeparator",
+         "Style": "Separator",
+         "SubMenu": "",
+         "Tooltip": ""
+      },
+      {
+         "ActionType": "None",
+         "CalledFunction": "",
+         "Caption": "Nested Options",
+         "CaptionTranslationMaxLength": 0,
+         "CaptionTranslationMeaning": "",
+         "CaptionTranslationMode": "",
+         "Description": "Action Control for the \"Menus and Toolbars\" Demo Function - Right Click Menu",
+         "FunctionKey": "0",
+         "IconName": "VIPIcoControlBar",
+         "IsEnabled": "true",
+         "IsVisible": "true",
+         "LinkFunction": "",
+         "Name": "DemoRCMenuActionControl3",
+         "Style": "DropDown",
+         "SubMenu": "DemoNestedDropDownMenu",
+         "Tooltip": ""
+      }
+   ],
+   "Description": "Right Click Menu for \"Menus and Toolbars\" Demo Function",
+   "Meta": {
+      "Type": "p4cb",
+      "Version": "1"
+   },
+   "Name": "DemoRightClickMenu",
+   "Order": 0,
+   "Type": "RightClick Menu"
+}

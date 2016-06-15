@@ -1,0 +1,1543 @@
+{
+   "ClassDescription": "",
+   "ClassName": "com.ngahr.pdfsso.PDFWriter",
+   "LibraryFile": "NorthgateVirtualMachine.jar",
+   "Meta": {
+      "Type": "p4ss",
+      "Version": "1"
+   },
+   "Name": "@PDFWriter",
+   "PropertyMethods": [
+      {
+         "DataType": "void",
+         "Name": "addAnchor",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "URL_Reference"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addCellToPdfTable",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "ColumnSpan"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "RowSpan"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "HorizontalAlign"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "VerticalAlign"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addImage",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "ImagePath"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Scale"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "RotationDegree"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Border"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "BorderWidth"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addNewPage",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addNewRow",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addParagraph",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "ParagraphText"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addText",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Text"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addTextFileToPdf",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "InputTextFile"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addTextToList",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Text"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "closePdfFile",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "closePdfTable",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createCode128BarCode",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Scale"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Tab"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Extend"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createCode39BarCode",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Scale"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Tab"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Extend"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createEANBarCode",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Format"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Pin"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Scale"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Tab"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createPDF147BarCode",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Scale"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createQRBarCode",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Scale"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createUPCBarCode",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Format"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Pin"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Scale"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Tab"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "drawHorizontalLine",
+         "Parameters": [
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "LeftX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "RightX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "YCoordinate"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Width"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "drawRectangle",
+         "Parameters": [
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "LowerX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "LowerY"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Width"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Height"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "drawRoundRectangle",
+         "Parameters": [
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "LowerX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "LowerY"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Width"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Height"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Radius"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "drawVerticalLine",
+         "Parameters": [
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "XCoordinate"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "TopY"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "BottomY"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Width"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "endList",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "endParagraph",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.Class",
+         "Name": "getClass",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getPdfTableRowSize",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getVersion",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "hashCode",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "hideTableCellBorder",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "notify",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "notifyAll",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "openPdfFile",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "openPdfTable",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "NumberOfColumns"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Width"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "placeText",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "XCoordinate"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "YCoordinate"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "placeTextAligned",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "LowerLeftX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "LowerLeftY"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "UpperRightX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "UpperRightY"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetFont",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetLineSpace",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetParagraphIdentation",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetPdfFillColor",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetPdfLineColor",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetPdfTableCellBorderColor",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetPdfTableCellHeight",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetPdfTableCellPadding",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetTableCellBorder",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetTableCellBorderWidth",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetTextBackgroundColor",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetTextRise",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setAnnotation",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Title"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Icon"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Visible"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setColor",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Red"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Green"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Blue"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setDocumentCreator",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Creator"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setDocumentKeyword",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Keyword"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setDocumentMetaData",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Title"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Subject"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Author"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setFontName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "FontName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setFontSize",
+         "Parameters": [{
+            "DataType": "float",
+            "InputOutput": "Input",
+            "Name": "FontSize"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setFontStyle",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "FontStyle"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setLineSpace",
+         "Parameters": [{
+            "DataType": "float",
+            "InputOutput": "Input",
+            "Name": "LineSpace"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setListFirstNumber",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "FirstNumber"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setListIdentation",
+         "Parameters": [
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Left"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Right"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setListLowercase",
+         "Parameters": [{
+            "DataType": "boolean",
+            "InputOutput": "Input",
+            "Name": "Lower"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setOutputPdfFileName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "PdfFileName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setParagraphIndentation",
+         "Parameters": [
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Left"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Right"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "FirstLine"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfCellBackgroundColor",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Red"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Green"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Blue"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfCompression",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Level"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfDefaultMargin",
+         "Parameters": [
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "MarginLeft"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "MarginRight"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "MarginTop"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "MarginBottom"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfDefaultSize",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "DocumentSize"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfEncryption",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "UserPassword"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "OwnerPassword"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Type"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfFillColor",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Red"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Green"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Blue"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfLineColor",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Red"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Green"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Blue"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfPermissions",
+         "Parameters": [
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "AllowPrint"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "DegradePrint"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "EditPage"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "AllowAssembly"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "AllowCopy"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "AllowReaders"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "EditAnnotation"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "AllowFillIn"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfTableAlignment",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Alignment"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfTableCellBorderColor",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Red"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Green"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Blue"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfTableCellHeight",
+         "Parameters": [{
+            "DataType": "float",
+            "InputOutput": "Input",
+            "Name": "Height"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfTableCellPadding",
+         "Parameters": [
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Padding"
+            },
+            {
+               "DataType": "char",
+               "InputOutput": "Input",
+               "Name": "Action"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfTableCellWidth",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellIndex"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Width"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfTableHeaderRows",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "HeaderRows"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPdfVersion",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Version"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setSpaceAfterTable",
+         "Parameters": [{
+            "DataType": "float",
+            "InputOutput": "Input",
+            "Name": "Space"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setSpaceBeforeTable",
+         "Parameters": [{
+            "DataType": "float",
+            "InputOutput": "Input",
+            "Name": "Space"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setStationary",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "StationaryPdf"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setTableCellBorder",
+         "Parameters": [
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Left"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Right"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Top"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Bottom"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setTableCellBorderWidth",
+         "Parameters": [{
+            "DataType": "float",
+            "InputOutput": "Input",
+            "Name": "Width"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setTextBackgroundColor",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Red"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Green"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Blue"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setTextRise",
+         "Parameters": [{
+            "DataType": "float",
+            "InputOutput": "Input",
+            "Name": "Rise"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWatermarkColor",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Red"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Green"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Blue"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWatermarkFont",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "FontName"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "Size"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Style"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWatermarkImage",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "ImagePath"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Align"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "RotationDegree"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWatermarkText",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Text"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Align"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffsetY"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "RotationDegree"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "showTableCellBorder",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "startList",
+         "Parameters": [
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Numbered"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Lettered"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "startParagraph",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Alignment"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "toString",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeSelectedPdfRows",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "RowStart"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "RowEnd"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffSetX"
+            },
+            {
+               "DataType": "float",
+               "InputOutput": "Input",
+               "Name": "OffSetY"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      }
+   ]
+}

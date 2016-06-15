@@ -1,0 +1,19 @@
+{
+   "ActionType": "None",
+   "CalledFunction": "",
+   "Caption": "",
+   "Description": "\"Separator\" Action Control for the \"Menus and Toolbars\" Demo Function",
+   "FunctionKey": "0",
+   "IconName": "",
+   "IsEnabled": "false",
+   "IsVisible": "false",
+   "LinkFunction": "",
+   "Meta": {
+      "Type": "p4ac",
+      "Version": "1"
+   },
+   "Name": "DemoSeparator",
+   "Style": "Separator",
+   "SubMenu": "",
+   "Tooltip": ""
+}

@@ -1,0 +1,371 @@
+{
+   "ClassDescription": "",
+   "ClassName": "com.northgatearinso.proiv.sso.ssohttp.SSOHttp",
+   "LibraryFile": "northgate-sso.jar",
+   "Meta": {
+      "Type": "p4ss",
+      "Version": "1"
+   },
+   "Name": "SSOHTTP",
+   "PropertyMethods": [
+      {
+         "DataType": "void",
+         "Name": "closeConnection",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createURL",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Protocol"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostName"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "PortNumber"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostFile"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createURLFromString",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "URL"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createURLWithDefProtocolAndPort",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostName"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostFile"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createURLWithDefaultPort",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Protocol"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostName"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostFile"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createURLWithDefaultProtocol",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostName"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "PortNumber"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostFile"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "decode",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Decode"
+         }],
+         "Scope": "Static",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "encode",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Encode"
+         }],
+         "Scope": "Static",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getAuthority",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getConnectTimeout",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getContentEncoding",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getContentLength",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getContentType",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getDefaultPort",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFile",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getHost",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getPath",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getPort",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getProtocol",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getQuery",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getReadTimeout",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getRef",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getRequestMethod",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getRequestProperty",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Property"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getResponseCode",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getResponseMessage",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getURLString",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getUserInfo",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "openConnection",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "readContent",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "ContentStringLength"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setConnectTimeout",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "TimeoutDuration"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setProxy",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "HostName"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "PortNumber"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setReadTimeout",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "TimeoutDuration"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setRequestMethod",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "RequestMethod"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setRequestProperty",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Keyword"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Value"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "boolean",
+         "Name": "usingProxy",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeContent",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "ContentString"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      }
+   ]
+}

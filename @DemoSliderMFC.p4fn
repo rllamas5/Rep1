@@ -1,0 +1,2299 @@
+{
+   "Analyst": "",
+   "CalledFunctionInterfaceMap": {"@DemoColorPropertySelector": {"BackColor": {
+      "Description": "Map: BackColor",
+      "Mappings": [
+         {
+            "MappingValue": "$BackColor",
+            "TextTranslationMaximumLength": 0,
+            "TextTranslationMeaningCode": "",
+            "TextTranslationMode": ""
+         },
+         {
+            "MappingValue": "$INPUT",
+            "TextTranslationMaximumLength": 0,
+            "TextTranslationMeaningCode": "",
+            "TextTranslationMode": ""
+         }
+      ]
+   }}},
+   "Contents": [
+      {
+         "AlternateFormatTag": "",
+         "CSSClass": "",
+         "Contents": [
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "Column": 43,
+               "ColumnHeading": "",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 10,
+               "CycleName": "MainCycle",
+               "DisplayMask": "3.0",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 3,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "The increment (when arrowing up/down)",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "true",
+               "IsAutoScrollbar": "N",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "true",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 11,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "Increment",
+               "Tooltip": "The increment (when arrowing up/down)",
+               "Type": "Field",
+               "VariableLength": 3,
+               "VariableName": "#Increment",
+               "Width": 4
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "Column": 43,
+               "ColumnHeading": "",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 11,
+               "CycleName": "MainCycle",
+               "DisplayMask": "3.0",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 3,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "The increment (when paging up/down)",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "true",
+               "IsAutoScrollbar": "N",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "true",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 12,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "Pageincrement",
+               "Tooltip": "The increment (when paging up/down)",
+               "Type": "Field",
+               "VariableLength": 3,
+               "VariableName": "#PageIncrement",
+               "Width": 4
+            },
+            {
+               "AssociatedFieldTagId": "",
+               "CSSClass": "",
+               "ClientDisplay": "Normal",
+               "Column": 43,
+               "CustomValidationEvent": 2,
+               "CycleName": "MainCycle",
+               "Height": 2,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsNoChange": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsTabStop": "false",
+               "IsVisible": "true",
+               "MaxHeight": "20",
+               "MaxWidth": "",
+               "ObjectCode": "SLIDER",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 14,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "SoftProperties": [
+                  {
+                     "Name": "Axis_labels_angle",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Axis_labels_format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_location",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Axis_labels_style_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_size",
+                     "Value": "  14"
+                  },
+                  {
+                     "Name": "Axis_labels_style_style",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_variant",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_weight",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_type",
+                     "Value": "minMax"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_interval",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_length",
+                     "Value": "  12"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_width",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Background_border_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Background_border_radius",
+                     "Value": "  3"
+                  },
+                  {
+                     "Name": "Background_border_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Background_border_width",
+                     "Value": "  1"
+                  },
+                  {
+                     "Name": "Background_fill_angle",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Background_fill_color",
+                     "Value": "White"
+                  },
+                  {
+                     "Name": "Background_fill_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_fill_shape",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_fill_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Background_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_fill_to",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_fill_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "Background_padding",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "Background_shadow_blur",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Background_shadow_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Background_shadow_inset",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Background_shadow_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Background_shadow_xWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Background_shadow_yWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Bar_border_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Bar_border_radius",
+                     "Value": "  3"
+                  },
+                  {
+                     "Name": "Bar_border_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Bar_border_width",
+                     "Value": "  1"
+                  },
+                  {
+                     "Name": "Bar_fill_angle",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Bar_fill_color",
+                     "Value": "160,160,160"
+                  },
+                  {
+                     "Name": "Bar_fill_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Bar_fill_shape",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Bar_fill_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Bar_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Bar_fill_to",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Bar_fill_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "Bar_shadow_blur",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Bar_shadow_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Bar_shadow_inset",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Bar_shadow_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Bar_shadow_xWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Bar_shadow_yWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Bar_width",
+                     "Value": "  3"
+                  },
+                  {
+                     "Name": "Format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Max",
+                     "Value": "#Max"
+                  },
+                  {
+                     "Name": "Min",
+                     "Value": "#Min"
+                  },
+                  {
+                     "Name": "Orientation",
+                     "Value": "Horizontal"
+                  },
+                  {
+                     "Name": "PageIncrement",
+                     "Value": "2"
+                  },
+                  {
+                     "Name": "ShowValue",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "SingleIncrement",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "SnapToData",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Thumb_border_color",
+                     "Value": "96,96,96"
+                  },
+                  {
+                     "Name": "Thumb_border_radius",
+                     "Value": "  3"
+                  },
+                  {
+                     "Name": "Thumb_border_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Thumb_border_width",
+                     "Value": "  1"
+                  },
+                  {
+                     "Name": "Thumb_fill_angle",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Thumb_fill_color",
+                     "Value": "255,255,255"
+                  },
+                  {
+                     "Name": "Thumb_fill_colors",
+                     "Value": "240,240,240+128,128,128"
+                  },
+                  {
+                     "Name": "Thumb_fill_shape",
+                     "Value": "ellipse"
+                  },
+                  {
+                     "Name": "Thumb_fill_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Thumb_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Thumb_fill_to",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Thumb_fill_type",
+                     "Value": "radialGradient"
+                  },
+                  {
+                     "Name": "Thumb_length",
+                     "Value": " 12"
+                  },
+                  {
+                     "Name": "Thumb_shadow_blur",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Thumb_shadow_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Thumb_shadow_inset",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Thumb_shadow_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Thumb_shadow_xWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Thumb_shadow_yWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Thumb_type",
+                     "Value": "rectangular"
+                  },
+                  {
+                     "Name": "Title_margin",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Title_style_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Title_style_style",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_variant",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_weight",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_text",
+                     "Value": ""
+                  }
+               ],
+               "StandardValidationEvent": "",
+               "TagId": "HorizontalSlider",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 12,
+               "VariableName": "#TickMarkInterval",
+               "Width": 31
+            },
+            {
+               "AssociatedFieldTagId": "",
+               "CSSClass": "",
+               "ClientDisplay": "GUI Only",
+               "Column": 43,
+               "CustomValidationEvent": 12,
+               "CycleName": "MainCycle",
+               "GSDisplayWidth": 1,
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "Boolean. Show the current value when hovering over the thumb",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsSingleClick": "true",
+               "IsTabStop": "false",
+               "IsVisible": "true",
+               "ObjectCode": "CHECKBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 17,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "ShowValue",
+               "Tooltip": "Boolean. Show the current value when hovering over the thumb",
+               "Type": "Field",
+               "VariableLength": 1,
+               "VariableName": "$ShowValue",
+               "Width": 2
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "AttachedWindowId": "@DemoColorPropertySelector",
+               "AttachedWindowMapId": "BackColor",
+               "Backcolor": "White",
+               "CSSClassc": "",
+               "ClientDisplay": "Normal",
+               "Column": 43,
+               "CustomValidationEvent": 6,
+               "CycleName": "MainCycle",
+               "DisplayMask": "",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "Black",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 11,
+               "GSForecolor": "",
+               "HasScrollbar": "Y",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "Backgorund Color (any supported color value)",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAlternatIconGraphicName": "",
+               "IsAlternateIcon": "Y",
+               "IsAlternateIconGraphicVariable": "N",
+               "IsAttachedWindowGlobal": "Y",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsBold": "false",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsHideKey": "false",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsSortList": "",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "COMBOBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 19,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "BackColor",
+               "Tooltip": "Backgorund Color (any supported color value)",
+               "Type": "Field",
+               "VariableLength": 32,
+               "VariableName": "$BackColor",
+               "Width": 30
+            },
+            {
+               "AssociatedFieldTagId": "",
+               "AttachedWindowId": "SliderDataCycle",
+               "CSSClass": "",
+               "ClientDisplay": "Normal",
+               "Column": 92,
+               "CustomValidationEvent": 7,
+               "CycleName": "MainCycle",
+               "Height": 14,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAttachedWindowGlobal": "N",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsNoChange": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsTabStop": "false",
+               "IsVisible": "true",
+               "MaxHeight": "",
+               "MaxWidth": "40",
+               "ObjectCode": "SLIDER",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 10,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "SoftProperties": [
+                  {
+                     "Name": "Axis_labels_angle",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Axis_labels_format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_location",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Axis_labels_style_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_size",
+                     "Value": "  14"
+                  },
+                  {
+                     "Name": "Axis_labels_style_style",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_variant",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_style_weight",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axis_labels_type",
+                     "Value": "minMax"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_interval",
+                     "Value": "2"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_length",
+                     "Value": "  12"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Axis_tickMarks_width",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Background_border_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Background_border_radius",
+                     "Value": "  3"
+                  },
+                  {
+                     "Name": "Background_border_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Background_border_width",
+                     "Value": "  1"
+                  },
+                  {
+                     "Name": "Background_fill_angle",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Background_fill_color",
+                     "Value": "Aqua"
+                  },
+                  {
+                     "Name": "Background_fill_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_fill_shape",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_fill_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Background_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_fill_to",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_fill_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "Background_padding",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "Background_shadow_blur",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Background_shadow_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Background_shadow_inset",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Background_shadow_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Background_shadow_xWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Background_shadow_yWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Bar_border_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Bar_border_radius",
+                     "Value": "  3"
+                  },
+                  {
+                     "Name": "Bar_border_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Bar_border_width",
+                     "Value": "  1"
+                  },
+                  {
+                     "Name": "Bar_fill_angle",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Bar_fill_color",
+                     "Value": "160,160,160"
+                  },
+                  {
+                     "Name": "Bar_fill_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Bar_fill_shape",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Bar_fill_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Bar_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Bar_fill_to",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Bar_fill_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "Bar_shadow_blur",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Bar_shadow_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Bar_shadow_inset",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Bar_shadow_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Bar_shadow_xWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Bar_shadow_yWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Bar_width",
+                     "Value": "  3"
+                  },
+                  {
+                     "Name": "Format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Max",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Min",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Orientation",
+                     "Value": "Vertical"
+                  },
+                  {
+                     "Name": "PageIncrement",
+                     "Value": "3"
+                  },
+                  {
+                     "Name": "ShowValue",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "SingleIncrement",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "SnapToData",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Thumb_border_color",
+                     "Value": "96,96,96"
+                  },
+                  {
+                     "Name": "Thumb_border_radius",
+                     "Value": "  3"
+                  },
+                  {
+                     "Name": "Thumb_border_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Thumb_border_width",
+                     "Value": "  1"
+                  },
+                  {
+                     "Name": "Thumb_fill_angle",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Thumb_fill_color",
+                     "Value": "255,255,255"
+                  },
+                  {
+                     "Name": "Thumb_fill_colors",
+                     "Value": "240,240,240+128,128,128"
+                  },
+                  {
+                     "Name": "Thumb_fill_shape",
+                     "Value": "ellipse"
+                  },
+                  {
+                     "Name": "Thumb_fill_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Thumb_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Thumb_fill_to",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Thumb_fill_type",
+                     "Value": "radialGradient"
+                  },
+                  {
+                     "Name": "Thumb_length",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Thumb_shadow_blur",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Thumb_shadow_color",
+                     "Value": "128,128,128"
+                  },
+                  {
+                     "Name": "Thumb_shadow_inset",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Thumb_shadow_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Thumb_shadow_xWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Thumb_shadow_yWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Thumb_type",
+                     "Value": "rectangular"
+                  },
+                  {
+                     "Name": "Title_margin",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Title_style_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Title_style_style",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_variant",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_weight",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_text",
+                     "Value": ""
+                  }
+               ],
+               "StandardValidationEvent": "",
+               "TagId": "VerticalSlider",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 32,
+               "VariableName": "$SliderVertical",
+               "Width": 9
+            }
+         ],
+         "CycleEndTag": "VerticalSlider",
+         "CycleEntryLogic": 3,
+         "CycleExitEvent": 0,
+         "CycleName": "MainCycle",
+         "CycleStartTag": "Increment",
+         "CycleType": "ManyTime Screen",
+         "DefaultMode": "C",
+         "DetailFormatTag": "",
+         "EODCancelEvent": 0,
+         "FormatTag": "MainCycle",
+         "FunctionKeys": [
+            {
+               "Description": "Exit",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 4,
+               "Number": "  33"
+            },
+            {
+               "Description": "Reset",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 5,
+               "Number": "  34"
+            }
+         ],
+         "GUIBorderEndColumn": 0,
+         "GUIBorderEndRow": 0,
+         "GUIBorderStartColumn": 0,
+         "GUIBorderStartRow": 0,
+         "GUIHeaderEndColumn": 0,
+         "GUIHeaderEndRow": 0,
+         "GUIHeaderStartColumn": 0,
+         "GUIHeaderStartRow": 0,
+         "HelpFileKeyword": "",
+         "IsClearScreen": "true",
+         "IsExpandedPagingHorizontalGrid": "false",
+         "IsExpandedPagingVerticalGrid": "false",
+         "IsNormalPagingHorizontalGrid": "false",
+         "IsNormalPagingVerticalGrid": "false",
+         "IsScaleWallpaper": "false",
+         "IsSortPass": "",
+         "IsSuppressAccessToAugmentedLookupFieldsInDeleteMode": "",
+         "IsSuppressBorder": "false",
+         "IsSuppressConfirmationOnDelete": "",
+         "IsSuppressGUIBorder": "false",
+         "IsWallpaperFilenameRequired": "true",
+         "IterationCounter": "",
+         "LastFileNumber": "",
+         "LastReadFieldTag": "",
+         "LineNumberPrompt": "",
+         "LineNumberToDisplayScreenMode": 0,
+         "MouseNavigationAllowed": "true",
+         "PrimaryFileName": "",
+         "ScreenModeChangedEvent": 0,
+         "ScreenModesAllowed": "C",
+         "ScreenTitle": "",
+         "StaticObjects": [
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "001",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "FunctionKey": -1,
+               "Graphic": "do_feats_top.jpg",
+               "Height": 6,
+               "IsBold": "false",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "001",
+               "Sequence": "001",
+               "TagId": "HeadingIcon",
+               "Tooltip": "",
+               "Width": 110
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "G",
+               "Column": "023",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "FunctionKey": 0,
+               "Graphic": "do_feats_header",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "            Sliders (Use Rules & Data)",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "007",
+               "Sequence": "002",
+               "TagId": "TitleIcon",
+               "Tooltip": "",
+               "Width": 88
+            },
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "G",
+               "Column": "001",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "FunctionKey": 0,
+               "Graphic": "do_feats_frame",
+               "Height": 24,
+               "IsBold": "false",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "007",
+               "Sequence": "003",
+               "TagId": "ControlPanel",
+               "Tooltip": "",
+               "Width": 22
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "white",
+               "FunctionKey": 34,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      Reset",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "010",
+               "Sequence": "004",
+               "TagId": "ResetProperties",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "G",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "white",
+               "FunctionKey": 33,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      E&xit",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "013",
+               "Sequence": "005",
+               "TagId": "Exit",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "027",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Description",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "025",
+               "Sequence": "006",
+               "TagId": "DescriptionPrompt",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "027",
+               "Fontname": "",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 2,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "The horizontal slider is 'rules' based, whereas the vertical uses data from a selection cycle.",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "026",
+               "Sequence": "007",
+               "TagId": "Description1",
+               "Tooltip": "",
+               "Width": 55
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "028",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Increment",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "011",
+               "Sequence": "008",
+               "TagId": "IncrementPrompt",
+               "Tooltip": "The increment (when arrowing up/down)",
+               "Width": 18
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "028",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Page Increment",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "012",
+               "Sequence": "009",
+               "TagId": "PageIncrementPrompt",
+               "Tooltip": "The increment (when paging up/down)",
+               "Width": 18
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "028",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Background Color",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "019",
+               "Sequence": "012",
+               "TagId": "BackColorPrompt",
+               "Tooltip": "Backgorund Color (any supported color value)",
+               "Width": 18
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "027",
+               "Fontname": "",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 3,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Property values can be modified. Setting an invalid property value the (tooltip for each property is indicative) will give default behavior at run time. Moving the horizontal slider will modify the tick mark interval on the vertical slider.",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "028",
+               "Sequence": "013",
+               "TagId": "Description2",
+               "Tooltip": "",
+               "Width": 55
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "028",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Show Value",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "017",
+               "Sequence": "014",
+               "TagId": "ShowValuePrompt",
+               "Tooltip": "The cuurent value selected from the slider",
+               "Width": 10
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "028",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Tick Mark Interval",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "015",
+               "Sequence": "015",
+               "TagId": "TickMarkIntervalPrompt",
+               "Tooltip": "The cuurent value selected from the slider",
+               "Width": 15
+            },
+            {
+               "Alignment": "D",
+               "Backcolor": "",
+               "BoxAppearance": "Border",
+               "CSSClass": "",
+               "ClientDisplay": "B",
+               "Column": "089",
+               "FontName": "",
+               "Forecolor": "White",
+               "GSBackcolor": "Default",
+               "GSForecolor": "Default",
+               "Height": 18,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsItalic": "false",
+               "IsShapeBold": "",
+               "IsStrikeOut": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Vertical Slider",
+               "MaxHeight": "25",
+               "MaxWidth": "",
+               "ObjectType": "BOX",
+               "Row": "009",
+               "Sequence": "016",
+               "ShapeMargin": "Center",
+               "ShapeProjection": "Inset",
+               "TagId": "VerticalBox",
+               "Width": 17
+            },
+            {
+               "Alignment": "",
+               "Backcolor": "",
+               "BoxAppearance": "Border",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "026",
+               "FontName": "",
+               "Forecolor": "White",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "Height": 15,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsItalic": "false",
+               "IsShapeBold": "",
+               "IsStrikeOut": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Properties for the Vertical Slider",
+               "MaxHeight": "24",
+               "MaxWidth": "0",
+               "ObjectType": "BOX",
+               "Row": "009",
+               "Sequence": "017",
+               "ShapeMargin": "Center",
+               "ShapeProjection": "Inset",
+               "TagId": "HorizontalBox",
+               "Width": 57
+            },
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "White",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "096",
+               "DisplayMask": "",
+               "Fontname": "",
+               "Forecolor": "Black",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "LabelTooltip": "",
+               "Name": "$ValueSelectedVertical",
+               "ObjectType": "VARIABLE",
+               "Row": "025",
+               "Sequence": "018",
+               "TagId": "ValueSelectedVertical",
+               "Tooltip": "",
+               "VariableLength": 32,
+               "Width": 4
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "028",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Slider Value",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "022",
+               "Sequence": "019",
+               "TagId": "ShowValuePromptHorizontal",
+               "Tooltip": "Boolean. Show the current value when hovering over the thumb",
+               "Width": 18
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "091",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Value",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "025",
+               "Sequence": "020",
+               "TagId": "ShowValuePromptVertical",
+               "Tooltip": "Boolean. Show the current value when hovering over the thumb",
+               "Width": 5
+            },
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "White",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "043",
+               "DisplayMask": "",
+               "Fontname": "",
+               "Forecolor": "Black",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "LabelTooltip": "",
+               "Name": "$ValueSelectedHorizontal",
+               "ObjectType": "VARIABLE",
+               "Row": "022",
+               "Sequence": "021",
+               "TagId": "ValueSelectedHorizontal",
+               "Tooltip": "",
+               "VariableLength": 32,
+               "Width": 30
+            }
+         ],
+         "Type": "Cycle",
+         "WallpaperImageFileName": "do_feats_purple",
+         "WindowEndColumn": 0,
+         "WindowEndRow": 0,
+         "WindowStartColumn": 0,
+         "WindowStartRow": 0
+      },
+      {
+         "ArraySize": 12,
+         "Contents": [{
+            "Alignment": "Default",
+            "AssociatedFieldTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "Column": 1,
+            "ColumnHeading": "",
+            "ColumnHeadingTranslationMaximumLength": 0,
+            "ColumnHeadingTranslationMeaningCode": "",
+            "ColumnHeadingTranslationMode": "",
+            "CustomValidationEvent": 0,
+            "CycleName": "SliderDataCycle",
+            "DisplayMask": "",
+            "FillCode": "",
+            "Fontname": "",
+            "Forecolor": "",
+            "GSBackcolor": "",
+            "GSDisplayWidth": 3,
+            "GSForecolor": "",
+            "Height": 1,
+            "HelpKeyword": "",
+            "HelpMessage": "",
+            "HelpMessageTranslationMaxLength": 0,
+            "HelpMessageTranslationMeaningCode": "",
+            "HelpMessageTranslationMode": "",
+            "IsAcceptFocusInLookup": "",
+            "IsAllowDoubleBytes": "",
+            "IsAutoCompletMode": "",
+            "IsAutoComplete": "false",
+            "IsAutoRepeat": "false",
+            "IsAutoScrollbar": "",
+            "IsBold": "false",
+            "IsCharacterWrap": "",
+            "IsDisplayOnly": "false",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSNormalIntensity": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsItalic": "false",
+            "IsLSPreload": "",
+            "IsMustInput": "false",
+            "IsNoChange": "false",
+            "IsOverride": "false",
+            "IsPagingColumnHeaderBold": "false",
+            "IsPagingColumnHeaderItalic": "false",
+            "IsPagingColumnHeaderSortOnColumnClick": "false",
+            "IsPagingColumnHeaderStrikeout": "false",
+            "IsPagingColumnHeaderUnderline": "false",
+            "IsRowAbsolute": "false",
+            "IsStrikeout": "false",
+            "IsTabStop": "false",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "ObjectCode": "EDITBOX",
+            "OnFocusEvent": 0,
+            "OnLostFocusEvent": 0,
+            "OnRefreshEvent": 0,
+            "OnWindowEvent": 0,
+            "PagingColumnHeader": "",
+            "PagingColumnHeaderAlignment": "",
+            "PagingColumnHeaderBackcolor": "",
+            "PagingColumnHeaderFontName": "",
+            "PagingColumnHeaderForecolor": "",
+            "RightClickMenu": "",
+            "Row": 1,
+            "SecurityLevelChange": 0,
+            "SecurityLevelLook": 0,
+            "StandardValidation": "",
+            "TagId": "Month",
+            "Tooltip": "",
+            "Type": "Field",
+            "VariableLength": 3,
+            "VariableName": "$Month(@PSEQ)",
+            "Width": 3
+         }],
+         "CycleEndTag": "Month",
+         "CycleEntryLogic": 0,
+         "CycleExitEvent": 0,
+         "CycleName": "SliderDataCycle",
+         "CycleStartTag": "Month",
+         "CycleType": "Selection Cycle(Array)",
+         "DefaultMode": "L",
+         "EODCancelEvent": 0,
+         "IterationCounter": "",
+         "LastFileNumber": "",
+         "PrimaryFileName": "",
+         "ScreenModeChangedEvent": 0,
+         "ScreenModesAllowed": "L",
+         "SortEvent": 0,
+         "Type": "Cycle"
+      }
+   ],
+   "ErrorFunction": "DEMO",
+   "Events": {
+      "001": [
+         "// Set the horizontal slider min max values.",
+         "#Min = 1",
+         "#Max = 9",
+         "",
+         "$SliderVertical = 'Mar'",
+         "",
+         "//Set the possible values for the vertical slider",
+         "$Month(1)  = 'Jan'",
+         "$Month(2)  = 'Feb'",
+         "$Month(3)  = 'Mar'",
+         "$Month(4)  = 'Apr'",
+         "$Month(5)  = 'May'",
+         "$Month(6)  = 'Jun'",
+         "$Month(7)  = 'Jul'",
+         "$Month(8)  = 'Aug'",
+         "$Month(9)  = 'Sep'",
+         "$Month(10) = 'Oct'",
+         "$Month(11) = 'Nov'",
+         "$Month(12) = 'Dec'"
+      ],
+      "002": [
+         "//Show value selected for horizontal slider.",
+         "ValueSelectedHorizontal.Label = conv(#INPUT)",
+         "",
+         "//Set the property for the vertical slider",
+         "VerticalSlider.Axis_tickMarks_interval = #INPUT"
+      ],
+      "003": [
+         "//Retrieve current value of displayed vertical slider properties.",
+         "$BackColor        = VerticalSlider.Background_fill_color",
+         "#TickMarkInterval = VerticalSlider.Axis_tickMarks_interval",
+         "#Increment        = VerticalSlider.SingleIncrement",
+         "#PageIncrement    = VerticalSlider.PageIncrement",
+         "$ValueSelectedHorizontal = CONV(#TickMarkInterval)",
+         "",
+         "if VerticalSlider.ShowValue # 0 then",
+         "   $ShowValue = 'Y'",
+         "endif",
+         "",
+         "$ValueSelectedVertical   = $Month(1)"
+      ],
+      "004": [
+         "//Exit to DEMO",
+         "lsexit"
+      ],
+      "005": [
+         "//Reset the vertical slider values to the defaults.",
+         "#Increment = 1",
+         "#PageIncrement = 3",
+         "",
+         "VerticalSlider.Background_fill_color = 'Aqua'",
+         "$BackColor = VerticalSlider.Background_fill_color",
+         "VerticalSlider.ShowValue = True",
+         "$ShowValue = 'Y'",
+         "VerticalSlider.Axis_tickMarks_interval = 2",
+         "#TickMarkInterval = VerticalSlider.Axis_tickMarks_interval"
+      ],
+      "006": [
+         "//Set the new property values.",
+         "VerticalSlider.Background_fill_color = $INPUT"
+      ],
+      "007": [
+         "//Show value selected for vertical slider.",
+         "ValueSelectedVertical.Label = $INPUT"
+      ],
+      "010": [
+         "//Refresh values and the slider itself.",
+         "VerticalSlider.SingleIncrement = #INPUT"
+      ],
+      "011": [
+         "//Refresh values and the slider itself.",
+         "VerticalSlider.PageIncrement = #INPUT"
+      ],
+      "012": [
+         "//Set the property according to the variable value.",
+         "if $INPUT = 'Y' then",
+         "   VerticalSlider.ShowValue = True",
+         "else",
+         "   VerticalSlider.ShowValue = False",
+         "endif"
+      ]
+   },
+   "ExitFunction": "DEMO",
+   "FunctionEntryEvent": 1,
+   "FunctionExitEvent": 0,
+   "FunctionParameters": [],
+   "FunctionTitleForMenus": "",
+   "IsBlockFunctionExecution": "false",
+   "IsFunctionInProduction": "false",
+   "IsGlobal": "false",
+   "IsNoReturnData": "false",
+   "IsSuppressLines": "false",
+   "IsSuppressReportUpdateMessage": "false",
+   "MenuIcon": "",
+   "Meta": {
+      "Type": "p4fn",
+      "Version": "1"
+   },
+   "MinimumSecurityLevel": 1,
+   "Name": "@DemoSliderMFC",
+   "Password": "",
+   "ScratchVariables": [
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#Increment"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#Max"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#Min"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#PageIncrement"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#TickMarkInterval"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$BackColor"
+      },
+      {
+         "ArraySize": 12,
+         "Description": "",
+         "Length": 3,
+         "Name": "$Month"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 1,
+         "Name": "$ShowValue"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$Slider"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$SliderVertical"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$ValueSelected"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$ValueSelectedHorizontal"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$ValueSelectedVertical"
+      }
+   ],
+   "SecurityCategory": "DEMO",
+   "SecurityFailureFunction": "",
+   "Title": "Slider Demo (MFC)",
+   "TitleForMenusTranslationMaximumLength": 0,
+   "TitleForMenusTranslationMeaningCode": "",
+   "TitleForMenusTranslationMode": "",
+   "TitleTranslationMaximumLength": 0,
+   "TitleTranslationMeaningCode": "",
+   "TitleTranslationMode": "",
+   "Type": "Screen"
+}

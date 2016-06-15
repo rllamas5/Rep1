@@ -1,0 +1,232 @@
+{
+   "Analyst": "David Hartwell",
+   "BatchQueueId": "",
+   "BatchQueuePriority": "",
+   "Contents": [{
+      "Contents": [{
+         "AccessMode": "L",
+         "AfterFailedReadEvent": 0,
+         "AfterFailedWriteEvent": 0,
+         "AfterSuccessfulReadEvent": 2,
+         "AfterSuccessfulWriteEvent": 0,
+         "BeforeReadEvent": 0,
+         "BeforeWriteEvent": 0,
+         "FileAccessorName": "DEMO_FOLDER",
+         "IsClearFile": "false",
+         "KeyMappingEvent": 0,
+         "RecordLockedEvent": 0,
+         "Type": "File"
+      }],
+      "CycleEndTag": "DefaultCycle",
+      "CycleEntryEvent": 1,
+      "CycleExitEvent": 0,
+      "CycleName": "DefaultCycle",
+      "CycleStartTag": "DefaultCycle",
+      "CycleType": "ManyTime Update",
+      "IsSortPass": "",
+      "LastSortFileSequence": 0,
+      "SortEvent": 0,
+      "Type": "Cycle"
+   }],
+   "ErrorFunction": "",
+   "Events": {
+      "001": ["ALIAS(\"DEMO_FOLDER\",$Directory)"],
+      "002": ["IF FILE_KEY_NAME = $INPUT THEN LSEXIT;"]
+   },
+   "ExitFunction": "",
+   "FunctionEntryEvent": 0,
+   "FunctionExitEvent": 0,
+   "FunctionParameters": [
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 100,
+         "Name": "$Directory",
+         "NameForTasks": "",
+         "ParameterType": "I"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 1,
+         "Name": "FILE_IS_DIRECTORY",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 1,
+         "Name": "FILE_IS_READ_ONLY",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 1,
+         "Name": "FILE_IS_OWNER",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "N",
+         "Length": 12,
+         "Name": "FILE_SIZE",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 10,
+         "Name": "FILE_PERMISSIONS",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "N",
+         "Length": 4,
+         "Name": "FILE_LINKS",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 8,
+         "Name": "FILE_OWNER",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 8,
+         "Name": "FILE_GROUP",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 8,
+         "Name": "FILE_CREATE_DATE",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 6,
+         "Name": "FILE_CREATE_TIME",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 8,
+         "Name": "FILE_ACCESS_DATE",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 6,
+         "Name": "FILE_ACCESS_TIME",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 8,
+         "Name": "FILE_MODIFIED_DATE",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 6,
+         "Name": "FILE_MODIFIED_TIME",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 8,
+         "Name": "FILE_WIN_ATTRIBUTES",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "N",
+         "Length": 10,
+         "Name": "FILE_WIN_ATTRIBUTES_VALUE",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 12,
+         "Name": "FILE_MSDOS_NAME",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "N",
+         "Length": 5,
+         "Name": "FILE_VERSION",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      },
+      {
+         "ArraySize": 0,
+         "DataType": "A",
+         "Length": 250,
+         "Name": "FILE_NAME",
+         "NameForTasks": "",
+         "ParameterType": "O"
+      }
+   ],
+   "FunctionTitleForMenus": "",
+   "IsBlockFunctionExecution": "false",
+   "IsFunctionInProduction": "false",
+   "IsGlobal": "true",
+   "IsIncludeable": "false",
+   "IsRestfulFunction": "false",
+   "IsSuppressReportUpdateMessage": "false",
+   "MenuIcon": "",
+   "Meta": {
+      "Type": "p4fn",
+      "Version": "1"
+   },
+   "MinimumSecurityLevel": 0,
+   "Name": "@DemoDirectoryBrowserCheck",
+   "Password": "",
+   "ScratchVariables": [{
+      "ArraySize": 0,
+      "Description": "",
+      "Length": 100,
+      "Name": "$Directory"
+   }],
+   "SecurityCategory": "DEMO",
+   "SecurityFailureFunction": "",
+   "Title": "Check the selected item",
+   "TitleForMenusTranslationMaximumLength": 0,
+   "TitleForMenusTranslationMeaningCode": "",
+   "TitleForMenusTranslationMode": "",
+   "TitleTranslationMaximumLength": 0,
+   "TitleTranslationMeaningCode": "",
+   "TitleTranslationMode": "",
+   "Type": "Update"
+}

@@ -1,0 +1,22 @@
+{
+   "ActionType": "None",
+   "CalledFunction": "",
+   "Caption": "Nested Options",
+   "CaptionTranslationMaxLength": 0,
+   "CaptionTranslationMeaning": "",
+   "CaptionTranslationMode": "",
+   "Description": "Action Control for the \"Menus and Toolbars\" Demo Function - Right Click Menu",
+   "FunctionKey": "0",
+   "IconName": "VIPIcoControlBar",
+   "IsEnabled": "true",
+   "IsVisible": "true",
+   "LinkFunction": "",
+   "Meta": {
+      "Type": "p4ac",
+      "Version": "1"
+   },
+   "Name": "DemoRCMenuActionControl3",
+   "Style": "DropDown",
+   "SubMenu": "DemoNestedDropDownMenu",
+   "Tooltip": ""
+}

@@ -1,0 +1,1380 @@
+{
+   "ClassDescription": "",
+   "ClassName": "com.ngahr.excelsso.ExcelWriter",
+   "LibraryFile": "NorthgateVirtualMachine.jar",
+   "Meta": {
+      "Type": "p4ss",
+      "Version": "1"
+   },
+   "Name": "@ExcelWriter",
+   "PropertyMethods": [
+      {
+         "DataType": "void",
+         "Name": "addExcelFormula",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Row"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Column"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Formula"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Format"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addNewRow",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "addPageBreak",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Row"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "closeExcelFile",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "copyWorkSheet",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "SheetIndex"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "NewSheetName"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "NewSheetIndex"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "createNewWorkSheet",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getCellContent",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Row"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Column"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.Class",
+         "Name": "getClass",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getCurrentRow",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getFileSizeInBytes",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "File"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getSystemDefaultTempDir",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getVersion",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getWorkSheetCount",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "hashCode",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "hideColumn",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Column"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "hideRow",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Row"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "insertColumn",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Column"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "insertRow",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Row"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "boolean",
+         "Name": "isWorkSheetExist",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "SheetName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "lockProtectedCell",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "mergeCells",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Row1"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Column1"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Row2"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Column2"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "moveWorkSheet",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FromIndex"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "ToIndex"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "notify",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "notifyAll",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "openExcelFile",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "openExistingExcelFile",
+         "Parameters": [{
+            "DataType": "boolean",
+            "InputOutput": "Input",
+            "Name": "Template"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "openExistingWorksheet",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "removeColumn",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Column"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "removeRow",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Row"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "removeWorkSheet",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "WorksheetNumber"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetCellBorder",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetCellVerticalAlign",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetFitToPages",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetFont",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetWorksheetHidden",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetWorksheetHorizontalCenter",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "resetWorksheetVerticalCenter",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setCellBorder",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BorderStyle"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BorderLineStyle"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BorderColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setCellVerticalAlign",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "VerticalAlignment"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setColumnWidth",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Column"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Width"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setCurrentRow",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "RowId"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setCustomDateFormat",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Format"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FormatId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setCustomDateFormatUnlocked",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Format"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FormatId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setCustomNumberFormat",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Format"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FormatId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setCustomNumberFormatUnlocked",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Format"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FormatId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setDatePattern",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Pattern"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setFitToPagesHeight",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "PageCount"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setFitToPagesWidth",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "PageCount"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setFont",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "FontName"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FontSize"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "FontWeight"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Italic"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Color"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setRowHeight",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Row"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Height"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Collapsed"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetBottomMargin",
+         "Parameters": [{
+            "DataType": "double",
+            "InputOutput": "Input",
+            "Name": "Margin"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetColumnGroup",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FirstColumn"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "LastColumn"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Collapsed"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetDefaultColumnWidth",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Width"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetDefaultRowHeight",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Height"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetFooter",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "FooterText"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetHeader",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "HeaderText"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetHidden",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetHorizontalCenter",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetHorizontalFreeze",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "ColumnNumber"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetLeftMargin",
+         "Parameters": [{
+            "DataType": "double",
+            "InputOutput": "Input",
+            "Name": "Margin"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "WorksheetName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetNumber",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "WorksheetNumber"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetPageOrientation",
+         "Parameters": [{
+            "DataType": "char",
+            "InputOutput": "Input",
+            "Name": "Parameter_1"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetPrintCopies",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Copies"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetProtected",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Password"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetRightMargin",
+         "Parameters": [{
+            "DataType": "double",
+            "InputOutput": "Input",
+            "Name": "RightMargin"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetRowGroup",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FirstRow"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "LastRow"
+            },
+            {
+               "DataType": "boolean",
+               "InputOutput": "Input",
+               "Name": "Collapsed"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetScaleFactor",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Scale"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetTopMargin",
+         "Parameters": [{
+            "DataType": "double",
+            "InputOutput": "Input",
+            "Name": "TopMargin"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetVerticalCenter",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setWorksheetVerticalFreeze",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "RowNumber"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setXlsFileName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "FileName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setXlsTemplateFileName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "TemplateFileName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setXlsxFileName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "FileName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setXlsxTemplateFileName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "TemplateFileName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "toString",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "unlockProtectedCell",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "unsetWorksheetColumnGroup",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FirstColumn"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "LastColumn"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "unsetWorksheetRowGroup",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FirstRow"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "LastRow"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "useTempFileDuringWrite",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "TempDirName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCell",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsCurrency",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsCustomDate",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FormatId"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsCustomNumber",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "FormatId"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsDate",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsDouble",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsDoubleNoFormat",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsEuropeanDate",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsImage",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellWidth"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellHeight"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "ImageName"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsInteger",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsIntegerNoFormat",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsLink",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "URL"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Description"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsSimpleCurrency",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelCellAsUKDate",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "CellId"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "CellValue"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Alignment"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "BGColor"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelFile",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "writeExcelFormula",
+         "Scope": "Instance",
+         "Type": "Method"
+      }
+   ]
+}

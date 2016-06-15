@@ -1,0 +1,324 @@
+{
+   "ClassDescription": "",
+   "ClassName": "com.ngahr.ftpsso.FtpSSO",
+   "LibraryFile": "NorthgateVirtualMachine.jar",
+   "Meta": {
+      "Type": "p4ss",
+      "Version": "1"
+   },
+   "Name": "@FTPClient",
+   "PropertyMethods": [
+      {
+         "DataType": "int",
+         "Name": "changeDirectory",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "PathName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "closeConnection",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "createFtpDirectory",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "PathName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "deleteFtpDirectory",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "PathName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "deleteFtpFile",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "PathName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "downloadFile",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "PathName"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "LocalFile"
+            },
+            {
+               "DataType": "char",
+               "InputOutput": "Input",
+               "Name": "Verify"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "ftpLogoff",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "ftpLogon",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.Class",
+         "Name": "getClass",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFtpCurrentDir",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getFtpDirListing",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "PathName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getFtpFileListing",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "PathName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFtpFilename",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Index"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFtpListingName",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Index"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "long",
+         "Name": "getFtpListingSize",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Index"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFtpListingType",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Index"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getHostName",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getHostPort",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getPassword",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "char",
+         "Name": "getTransferType",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getUserName",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "hashCode",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "notify",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "notifyAll",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "openConnection",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setConnectionMode",
+         "Parameters": [{
+            "DataType": "char",
+            "InputOutput": "Input",
+            "Name": "ConnectionMode"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setHostName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "HostName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setHostPort",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "HostPort"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setPassword",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Password"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setTransferType",
+         "Parameters": [{
+            "DataType": "char",
+            "InputOutput": "Input",
+            "Name": "TransferType"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setUserName",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "UserName"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "toString",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "uploadFile",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "LocalFile"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "PathName"
+            },
+            {
+               "DataType": "char",
+               "InputOutput": "Input",
+               "Name": "Verify"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      }
+   ]
+}

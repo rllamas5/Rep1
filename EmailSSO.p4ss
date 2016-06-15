@@ -1,0 +1,327 @@
+{
+   "ClassDescription": "",
+   "ClassName": "com.northgatearinso.proiv.sso.email.EmailSSO",
+   "LibraryFile": "northgatearinso-sso.jar",
+   "Meta": {
+      "Type": "p4ss",
+      "Version": "1"
+   },
+   "Name": "EmailSSO",
+   "PropertyMethods": [
+      {
+         "DataType": "void",
+         "Name": "addAttachment",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Parameter_1"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "appendBcc",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Parameter_1"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Parameter_2"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "appendCc",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Parameter_1"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Parameter_2"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "appendMessage",
+         "Parameters": [{
+            "DataType": "java.lang.String",
+            "InputOutput": "Input",
+            "Name": "Parameter_1"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "appendTo",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Parameter_1"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Parameter_2"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "clearAttachments",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "clearBccRecipients",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "clearCcRecipients",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "clearMessage",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "clearToRecipients",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getAttachment",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Parameter_1"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getAttachmentCount",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.Class",
+         "Name": "getClass",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFirstBccRecipient",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFirstCcRecipient",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFirstToRecipient",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getFrom",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getMessage",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getNextBccRecipient",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getNextCcRecipient",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "getNextToRecipient",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "boolean",
+         "Name": "hasMoreBccRecipients",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "boolean",
+         "Name": "hasMoreCcRecipients",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "boolean",
+         "Name": "hasMoreToRecipients",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "hashCode",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "notify",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "notifyAll",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "send",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setFrom",
+         "Parameters": [
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Parameter_1"
+            },
+            {
+               "DataType": "java.lang.String",
+               "InputOutput": "Input",
+               "Name": "Parameter_2"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "toString",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "DEFAULT_SMTP_SERVER_PORT",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "PROIV_MAIL_HEADER",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "charSet",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "contentType",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "header",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "boolean",
+         "Name": "requireTLS",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "smtpPassword",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "smtpPort",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "smtpServername",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "smtpUsername",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "java.lang.String",
+         "Name": "subject",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "boolean",
+         "Name": "validateAddresses",
+         "Scope": "Static",
+         "Type": "Property"
+      }
+   ]
+}

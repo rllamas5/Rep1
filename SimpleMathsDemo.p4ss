@@ -1,0 +1,144 @@
+{
+   "ClassDescription": "",
+   "ClassName": "com.northgatearinso.proiv.sso.simplemathsdemo.SimpleMathsDemo",
+   "LibraryFile": "northgatearinso-sso.jar",
+   "Meta": {
+      "Type": "p4ss",
+      "Version": "1"
+   },
+   "Name": "SimpleMathsDemo",
+   "PropertyMethods": [
+      {
+         "DataType": "float",
+         "Name": "averageNumbers",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getNumber1",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getNumber2",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getNumber3",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "getNumber4",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setNumber1",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Parameter_1"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setNumber2",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Parameter_1"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setNumber3",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Parameter_1"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setNumber4",
+         "Parameters": [{
+            "DataType": "int",
+            "InputOutput": "Input",
+            "Name": "Parameter_1"
+         }],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "void",
+         "Name": "setNumbers",
+         "Parameters": [
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Parameter_1"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Parameter_2"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Parameter_3"
+            },
+            {
+               "DataType": "int",
+               "InputOutput": "Input",
+               "Name": "Parameter_4"
+            }
+         ],
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "sumNumbers",
+         "Scope": "Instance",
+         "Type": "Method"
+      },
+      {
+         "DataType": "int",
+         "Name": "num1",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "int",
+         "Name": "num2",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "int",
+         "Name": "num3",
+         "Scope": "Static",
+         "Type": "Property"
+      },
+      {
+         "DataType": "int",
+         "Name": "num4",
+         "Scope": "Static",
+         "Type": "Property"
+      }
+   ]
+}
